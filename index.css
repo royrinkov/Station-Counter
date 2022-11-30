@@ -1,0 +1,61 @@
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO0Au_OKy1j6hmaEyD0-WL48EnQOwstYp-gA&usqp=CAUZ");
+    background-size:cover;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:bolder;
+    text-align:center;
+    height: 100vh;
+}
+
+    .container {
+        background: white;
+        max-width: 70%;
+        margin: auto;
+        border: 3px solid black;
+        border-radius: 10px;
+    }
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 8.5px;
+}
+
+h2 {
+    font-size: 100px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:darkslateblue;
+    font-size: 50px;
+}
+
+button {
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight:999 ;
+    width: 150px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: hwb(243 28% 35%);
+    font-size: medium;
+}
+#reset-btn {
+    background: darkblue;
+}
+#day-total-btn{
+    background: darkmagenta;
+}
+
+#save-btn {
+    background: darkgreen;
+    font-size: medium;
+}
+
